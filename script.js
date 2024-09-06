@@ -32,7 +32,7 @@ var currentIndex = -1;
 
 //Random Quote Function:
 function getRandomQuote() {
-  console.log("Random Clicked");
+  // console.log("Random Clicked");
   var allQuotes = scienceQuotes
     .concat(philosophyQuotes)
     .concat(loveQuotes)
