@@ -5,13 +5,17 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
-  background: linear-gradient(to left bottom, lightgreen, lightblue);
+  background: linear-gradient(
+    to left bottom,
+    rgb(94, 220, 94),
+    rgb(232, 95, 232)
+  );
 }
 
 .container {
   background-color: rgba(255, 255, 2555, 0.1);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-  padding: 30px;
+  padding: 20px;
   border-radius: 15px;
   width: 90%;
   margin: 10px;
@@ -21,6 +25,48 @@ body {
 .heading {
   font-size: 35px;
   font-weight: 700;
+  color: rgb(173, 54, 54);
+}
+
+#category {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#category:focus {
+  border-color: #007bff;
+  background-color: #e9f5ff;
+  outline: none;
+}
+
+#category option {
+  padding: 10px;
+}
+
+#darkButton {
+  margin: 8px;
+}
+
+.quoteSize {
+  margin-top: 10px;
+}
+
+.quoteSize h3 {
+  margin-top: 0;
+}
+
+.fontSize {
+  margin-top: 10px;
+}
+
+.fontSize h3 {
+  margin-top: 0;
 }
 
 .quote {
@@ -29,8 +75,8 @@ body {
 }
 
 .author {
-  font-size: 35px;
-  margin: 10px;
+  font-size: 30px;
+  margin: 5px;
   font-style: italic;
 }
 
