@@ -43,7 +43,7 @@ function getRandomQuote() {
 
 //New Quote Function:
 function newQuote() {
-  console.log("New Clicked");
+  // console.log("New Clicked");
   var selectedCategory = categoryDropdown.value;
   var selectedQuote;
 
@@ -71,7 +71,7 @@ function newQuote() {
 
 //Previous Quote Function:
 function previousQuote() {
-  console.log("Previous Clicked");
+  // console.log("Previous Clicked");
   if (currentIndex > 0) {
     currentIndex--;
     selectedQuote = arr[currentIndex];
@@ -84,7 +84,7 @@ function previousQuote() {
 
 //Next Quote Function:
 function nextQuote() {
-  console.log("Next Clicked");
+  // console.log("Next Clicked");
   var max = arr.length;
   currentIndex++;
   if (currentIndex <= max - 1) {
